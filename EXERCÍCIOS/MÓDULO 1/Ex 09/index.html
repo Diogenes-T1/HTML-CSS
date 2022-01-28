@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Ordered Lists</h2>
+    <p>Para criar listas usa-se a tag "ol" e para delimitar, usa-se a tag "li" </p> <!--(ordered list)-->
+    <p>Como por exemplo a seguinte lista:</p>
+    <ol type="1"> <!-- pode-se também pedir para iniciar a contagem usaando o "start=x"-->
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ol>
+    <h2>Unordered Lists</h2>
+    <p>É a mesma coisa, porém a lista fica sem ordenação, para isso usa-se a tag "ul" e a tag "li" da mesma forma.</p>
+    <p>Ficando assim:</p>
+    <ul type=circle>
+        <li type=disc>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <p>OBS: dá para alterar o tipo de marcação usando os valores disc, circle e square dentro das tags.</p>
+    <h2>Listas Misturadas</h2>
+    <p>É possível mesclar entre os tipos de listas alternando as tags, como por exemplo:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ol type="a">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+        </ul> <!--É possível usar vários cursores segurando alt e clicando com o mouse-->
+        
+    </ol>
+    <h2>Lista de definição</h2>
+        <p>Como o proprio nome diz é uma lista para descrever os componentes. Para isso Usa-se as Tags "dt" para o componente da lista e "dd" para a descrição.</p>
+        <p>Como por exemplo:</p>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+
+</body>
+</html>

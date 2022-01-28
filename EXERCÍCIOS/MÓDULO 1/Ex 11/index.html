@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Esse tipo de comando serve para o uso da mesma imagem em diversos dispositivos.</p>
+    <p>Para isso usa-se a tag "picture" e dentro a tag "img"</p>
+    <p>Importante usar a tag <strong>"source"</strong> com o comando "media type" para dinamizar a imagem na própria página</p>
+    <p>Ficando assim:</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/P.png" type="image/png">>
+        <source media="(max-width: 1050px)" srcset="Imagens/M.png" type="image/png">
+        <img src="Imagens/G.png" alt="imagem flexível">
+    </picture>
+    <p><blockquote>(Diminua o tamanho da página para ver a imagem diminuindo)</blockquote></p>
+    <hr>
+    <h1>Meus Áudios</h1>
+    <!--para a música de Jazz usar a referência: Acoustic Blues de Audionautix é licenciada de acordo com a licença Atribuição 4.0 da Creative Commons. https://creativecommons.org/licenses/by/4.0/
+
+Artista: http://audionautix.com/-->
+    <p>Para inserir um áudio, usa-se a tag "audio" com o comando src= junto  com "controls autoplay"</p>
+    <p>ficando assim:</p>
+    <p><blockquote> Battleground - Ethan Meixsell.mp3</blockquote></p>
+    <audio src="midia/Battleground - Ethan Meixsell.mp3" controls ></audio>
+    <p><blockquote> Amazer Lazer - Audio Hertz.mp3</blockquote></p>
+    <audio src="midia/Amazer Lazer - Audio Hertz.mp3" controls ></audio>
+    <p><blockquote> Acoustic Blues - Audionautix.mp3 <sub> (Acoustic Blues de Audionautix é licenciada de acordo com a licença Atribuição 4.0 da Creative Commons. https://creativecommons.org/licenses/by/4.0/ Artista: http://audionautix.com)</sub> </blockquote></p>
+    <audio src="midia/Acoustic Blues - Audionautix.mp3" controls ></audio>
+    <h1>VÍDEOS HOSPEDADOS LOCALMENTE</h1>
+    <p>Para inserir vídeos hospedados localmente usa-se a tag <strong>"videos"</strong> e o comando <strong>"width="</strong> para escolher o tamanho</p>
+    <p>Assim como nos audios, usar também o comando <strong>"controls"</strong> para aparecer os botões de controle</p>
+    <p>e caso queira usar uma capa no vídeo usar o comando <strong>"poster="</strong> dentro da tag video </p>
+    <p>Ficando assim:</p>
+    <video width="560" poster="imagens/foto-capa.png" controls>
+        <source src="midia/Meu-Video-1.m4v" type="video/mp4">
+        <source src="midia/Meu-Video-2.webm" type="video/webm">
+        <source src="midia/Meu-Video-1.m4v" type="video/mp4">
+        <p>Desculpe, seu navegador não tem compatibilidade com a reprodução de vídeos</p>
+    </video>
+    <p><blockquote><small>Macaco simpático comendo maçã</small></blockquote></p>
+
+    <h1>COLOCANDO VÍDEOS HOSPEDADOS EXTERNAMENTE</h1>
+    <h2>VÍDEOS DO YOUTUBE</h2>
+    <P>dá para copiar o código do vídeo na aba compartilhar do vídeo</P>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h2>VÍDEOS DO VIMEO</h2>
+    <P>Também é possível copiar o código na aba de compartilhamento do vídeo no vimeo.</P>
+    <iframe src="https://player.vimeo.com/video/197093965?h=7fbc516b5a&autoplay=1&loop=1&color=c9ff23&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/197093965">Reel 2016</a> from <a href="https://vimeo.com/wabbla">Alvise Zennaro</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    
+   
+</body>
+</html>
