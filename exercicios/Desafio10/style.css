@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'idroid';
-    src: url('idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
 }
 @font-face{
     font-family: 'Bebas Neue';
-    src: url('BebasNeue-Regular.otf') format('opentype'); 
+    src: url('fontes/BebasNeue-Regular.otf') format('opentype'); 
 }
 
     :root {
@@ -197,3 +197,10 @@ footer{
         footer > p{
             margin: 0px;
         }
+        footer a{
+            color: white;
+            
+        }
+        a:hover{
+            background-color: var(--cor2);
+            color:black;
