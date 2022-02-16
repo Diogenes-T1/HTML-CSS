@@ -1,9 +1,10 @@
 @charset "UTF8";
 
 
-*{
+*{ 
     margin: 0px;
     padding: 0px;
+    
 }
 
 header{
@@ -13,5 +14,58 @@ header{
     padding: 20px;
     border: 10px;
     min-width: 400px;
-    height: 150px;
+    font-size: 1em;
+}
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    padding: 50px;
+
+}
+header > p{ 
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
+}
+
+a{
+  text-decoration: none;  
+  color: white;
+  font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{ 
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgba(80, 76, 76, 0.295);
+    width: 300px;
+}
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
 }
